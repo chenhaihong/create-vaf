@@ -1,6 +1,6 @@
 {
   "name": "@erye/create-vaf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "生成 `vaf` 管理平台应用的源码。",
   "authors": [
     {
