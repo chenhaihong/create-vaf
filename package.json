@@ -1,0 +1,35 @@
+{
+  "name": "@erye/create-vaf",
+  "version": "0.0.1",
+  "description": "生成 `vaf` 管理平台应用的源码。",
+  "authors": [
+    {
+      "name": "erye",
+      "email": "erye@tiiit.cn",
+      "web": "https://www.tiiit.cn"
+    }
+  ],
+  "main": "lib/create-vaf.js",
+  "bin": {
+    "create-vaf": "lib/create-vaf.js"
+  },
+  "files": [
+    "lib",
+    "template"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenhaihong/create-vaf.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "minimist": "^1.2.6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "paths": {
+      "@common/*": [
+        "common/*"
+      ],
+      "@component/*": [
+        "components/*"
+      ],
+      "@pages/*": [
+        "pages/*"
+      ]
+    },
+    "types": [
+      "element-plus/global"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "public"
+  ]
+}
