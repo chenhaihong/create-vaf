@@ -23,6 +23,7 @@ export default defineConfig({
         manualChunks: {
           Vaf: ["@erye/vaf"],
           VafStyle: ["@erye/vaf/dist/index.css"],
+          ElementPlus: ["element-plus"],
           ElementPlusStyle: ["element-plus/dist/index.css"],
         },
       },

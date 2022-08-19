@@ -31,13 +31,12 @@ export default {
         { path: "https://www.npmjs.com/package/@erye/vaf", title: "@erye/vaf" },
         { path: "https://github.com/chenhaihong/vaf/tree/main/src/ProComponents/VafProForm", title: "VafProForm" },
         { path: "https://github.com/chenhaihong/vaf/tree/main/src/ProComponents/VafProTable", title: "VafProTable" },
-        { path: "https://staging-cn.vuejs.org/", title: "Vue3 [New]" },
-        { path: "https://v3.cn.vuejs.org/", title: "Vue3 [Old]" },
+        { path: "https://cn.vuejs.org/", title: "Vue3 [CN]" },
         { path: "https://router.vuejs.org/zh/index.html", title: "Vue Router" },
         { path: "https://pinia.vuejs.org/", title: "pinia" },
-        { path: "https://vitejs.dev/", title: "Vit" },
-        { path: "https://element-plus.gitee.io/", title: "饿了么Gitee" },
-        { path: "https://element-plus.org/", title: "饿了么Github" },
+        { path: "https://vitejs.dev/", title: "Vite" },
+        { path: "https://element-plus.gitee.io/", title: "element-plus [Gitee]" },
+        { path: "https://element-plus.org/", title: "element-plus [Github]" },
         { path: "https://uniapp.dcloud.io/uniCloud/", title: "uniCloud" },
       ];
       return [

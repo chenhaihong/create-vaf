@@ -1,8 +1,14 @@
+import "element-plus/dist/index.css";
 import "@erye/vaf/dist/index.css";
 import "./main.css";
 
-import { createVafApp } from "@erye/vaf";
+import ElementPlus from "element-plus";
 import * as ElementPlusIconsVue from "@element-plus/icons-vue";
+import {
+  createVafApp,
+  installVafComponents,
+  installVafProComponents,
+} from "@erye/vaf";
 
 import vafAppId from "@common/config/vafAppId";
 import AuthService from "@common/api/auth";
@@ -41,9 +47,11 @@ const { app } = createVafApp({
   });
 }
 
-// 注册所有图标
+app.use(ElementPlus);
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
+  // 注册所有图标
   app.component(key, component);
 }
-
+app.use(installVafComponents);
+app.use(installVafProComponents);
 app.mount("#app");
