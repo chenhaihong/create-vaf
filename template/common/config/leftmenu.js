@@ -2,11 +2,27 @@ export default {
   logo: "/images/deer.png", // 侧边栏上的logo的地址
   menus: [
     {
+      /**
+       * type = router-link => vue-router路由地址
+       * type = http-link   => http地址
+       */
       type: "router-link",
       id: "/module--home",
       path: "/home",
       title: "首页",
-      authLevel: 1,
+      /**
+       * 使用icon组件名称来添加主菜单图标
+       * 图标列表: https://element-plus.org/zh-CN/component/icon.html#%E5%9B%BE%E6%A0%87%E9%9B%86%E5%90%88
+       */
+      icon: "House",
+      /**
+       * 依赖 authLevel authRoles 这2个字段，来完成菜单的角色过滤
+       */
+      authLevel: 1, // 0=>匿名 | 1=>登录(默认) | 2=>需鉴别角色
+      // authRoles: [], // 当鉴权等级为2时，该字段才有效，默认为空数组
+      /**
+       * 通过children字段来加入子菜单，支持多级菜单
+       */
       children: [
         {
           type: "router-link",
@@ -29,6 +45,7 @@ export default {
       id: "/module--super-admin",
       path: "/super-admin/admin",
       title: "超管",
+      icon: "Avatar",
       authLevel: 2,
       authRoles: ["super-admin"],
       children: [
@@ -77,8 +94,6 @@ export default {
       ],
     },
     {
-      // 菜单组示例
-      // router-link + children
       type: "router-link",
       id: "/pro-components",
       path: "/pro-components/vaf-pro-form",
@@ -102,7 +117,7 @@ export default {
       ],
     },
     {
-      type: "http-link",
+      type: "http-link", // http-link 不支持子菜单
       path: "https://www.npmjs.com/package/@erye/vaf",
       title: "@erye/vaf",
       authLevel: 0,
