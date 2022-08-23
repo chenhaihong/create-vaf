@@ -9,8 +9,8 @@
 ```bash
 # 在当前工作空间下执行,
 # 提示输入新目录名, 在当前工作空间的相对目录下生成
-$ npm create @erye/vaf
+$ npm create @erye/vaf@latest
 
 # 在当前工作空间的helloworld目录下生成
-$ npm create @erye/vaf helloworld
+$ npm create @erye/vaf@latest helloworld
 ```
