@@ -13,6 +13,7 @@ import {
 import vafAppId from "@common/config/vafAppId";
 import AuthService from "@common/api/auth";
 import leftmenuConfig from "@common/config/leftmenu";
+import navbarConfig from "@common/config/navbar";
 import routeConfig from "@common/route";
 
 const { app } = createVafApp({
@@ -29,6 +30,7 @@ const { app } = createVafApp({
     logout: AuthService.logout,
   },
   leftmenuConfig,
+  navbarConfig,
   routeConfig,
 });
 

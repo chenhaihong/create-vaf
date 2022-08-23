@@ -1,5 +1,6 @@
 export default {
   logo: "/images/deer.png", // 侧边栏上的logo的地址
+  hideFloatingSubmenu: false, // 是否禁用浮动子菜单
   menus: [
     {
       /**
@@ -98,6 +99,7 @@ export default {
       id: "/pro-components",
       path: "/pro-components/vaf-pro-form",
       title: "Pro组件",
+      icon: "Cpu",
       authLevel: 0,
       children: [
         {
@@ -120,6 +122,7 @@ export default {
       type: "http-link", // http-link 不支持子菜单
       path: "https://www.npmjs.com/package/@erye/vaf",
       title: "@erye/vaf",
+      icon: "Link",
       authLevel: 0,
     },
   ],

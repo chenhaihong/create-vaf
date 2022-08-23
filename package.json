@@ -16,7 +16,6 @@
   },
   "files": [
     "lib",
-    "template/.gitignore",
     "template"
   ],
   "publishConfig": {
