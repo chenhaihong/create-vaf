@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.9",
-    "@erye/vaf": "^0.0.15",
+    "@erye/vaf": "^0.0.17",
     "axios": "^0.27.2",
     "element-plus": "^2.2.13",
     "nprogress": "^0.2.0",

@@ -12,7 +12,7 @@ export default [
   {
     path: "/super-admin/admin",
     meta: {
-      VafLeftmenuId: "/super-admin/admin",
+      VafId: "/super-admin/admin",
       VafAuthLevel,
       VafAuthRoles,
       title: "管理员列表",
@@ -22,7 +22,7 @@ export default [
   {
     path: "/super-admin/admin-role",
     meta: {
-      VafLeftmenuId: "/super-admin/admin-role",
+      VafId: "/super-admin/admin-role",
       VafAuthLevel,
       VafAuthRoles,
       title: "管理员角色",
@@ -32,7 +32,7 @@ export default [
   {
     path: "/super-admin/api/admin-api",
     meta: {
-      VafLeftmenuId: "/super-admin/api/admin-api",
+      VafId: "/super-admin/api/admin-api",
       VafAuthLevel,
       VafAuthRoles,
       title: "管理员API",
@@ -42,7 +42,7 @@ export default [
   {
     path: "/super-admin/api/client-api",
     meta: {
-      VafLeftmenuId: "/super-admin/api/client-api",
+      VafId: "/super-admin/api/client-api",
       VafAuthLevel,
       VafAuthRoles,
       title: "客户端API",

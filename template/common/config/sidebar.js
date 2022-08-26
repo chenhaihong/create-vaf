@@ -99,7 +99,7 @@ export default {
       id: "/pro-components",
       path: "/pro-components/vaf-pro-form",
       title: "Pro组件",
-      icon: "Cpu",
+      // icon: "Cpu",
       authLevel: 0,
       children: [
         {

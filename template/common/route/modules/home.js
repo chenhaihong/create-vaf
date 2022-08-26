@@ -10,7 +10,7 @@ export default [
     meta: {
       // 把path当做id就行了,
       // 当与左侧菜单的id匹配上, 就会高亮左侧菜单.
-      VafLeftmenuId: "/home",
+      VafId: "/home",
       VafAuthLevel,
       title: "首页",
     },
@@ -19,7 +19,7 @@ export default [
   {
     path: "/docs",
     meta: {
-      VafLeftmenuId: "/docs",
+      VafId: "/docs",
       VafAuthLevel,
       title: "参考文档",
     },
