@@ -1,3 +1,4 @@
+import "normalize.css";
 import "element-plus/dist/index.css";
 import "@erye/vaf/dist/index.css";
 import "./main.css";

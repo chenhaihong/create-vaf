@@ -7,6 +7,9 @@ import vueJsx from "@vitejs/plugin-vue-jsx";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), vueJsx()],
+  css: {
+    devSourcemap: true,
+  },
   resolve: {
     alias: [
       { find: "@pages", replacement: resolve(__dirname, "./pages") },
@@ -22,7 +25,11 @@ export default defineConfig({
       output: {
         manualChunks: {
           Vaf: ["@erye/vaf"],
-          VafStyle: ["element-plus/dist/index.css", "@erye/vaf/dist/index.css"],
+          VafStyle: [
+            "normalize.css",
+            "element-plus/dist/index.css",
+            "@erye/vaf/dist/index.css",
+          ],
         },
       },
     },
