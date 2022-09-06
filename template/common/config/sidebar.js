@@ -1,6 +1,11 @@
 export default {
   logo: "/images/deer.png", // 侧边栏上的logo的地址
   hideFloatingSubmenu: false, // 是否禁用浮动子菜单
+  /**
+   * 是否启用过滤器, 默认启用.
+   * 禁用后, 将显示所有的侧边来菜单.
+   */
+  enableFilter: true,
   menus: [
     {
       /**

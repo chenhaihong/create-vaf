@@ -1,4 +1,9 @@
 export default {
+  /**
+   * 是否启用过滤器, 默认启用.
+   * 禁用后, 将显示所有的导航菜单.
+   */
+  enableFilter: true,
   hideUserinfo: false,
   menus: [
     {
