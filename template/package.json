@@ -10,13 +10,13 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.9",
-    "@erye/vaf": "^0.0.20",
+    "@erye/vaf": "^0.0.21",
     "axios": "^0.27.2",
-    "element-plus": "^2.2.15",
+    "element-plus": "^2.2.16",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
-    "pinia": "^2.0.21",
-    "vue": "^3.2.38",
+    "pinia": "^2.0.22",
+    "vue": "^3.2.39",
     "vue-router": "^4.1.5"
   },
   "devDependencies": {

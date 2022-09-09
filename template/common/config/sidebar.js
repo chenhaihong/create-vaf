@@ -104,7 +104,7 @@ export default {
       id: "/pro-components",
       path: "/pro-components/vaf-pro-form",
       title: "Pro组件",
-      // icon: "Cpu",
+      icon: "Cpu",
       authLevel: 0,
       children: [
         {
@@ -128,6 +128,17 @@ export default {
       path: "https://www.npmjs.com/package/@erye/vaf",
       title: "@erye/vaf",
       icon: "Link",
+      authLevel: 0,
+    },
+    {
+      type: "http-link", // http-link 不支持子菜单
+      path: "https://github.com/chenhaihong/vaf",
+      title: "@erye/vaf",
+      icon: "Link",
+      /**
+       * 是否隐藏显示，默认为false
+       */
+      hidden: true,
       authLevel: 0,
     },
   ],
